@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Config	main.go	/^type Config struct {$/;"	t
+DiskStatus	disk.go	/^type DiskStatus struct {$/;"	t
+GetCpuStat	psaux.go	/^func GetCpuStat(grep []string) (stat []*Process, ret int) {$/;"	f
+GetDiskStatus	disk.go	/^func GetDiskStatus(path string) (*DiskStatus, error) {$/;"	f
+Process	psaux.go	/^type Process struct {$/;"	t
+SendMail	mail.go	/^func SendMail(title string, body string, receiver string) {$/;"	f
+Wrap	main.go	/^func (m *monitor) Wrap(cb func()) {$/;"	f
+cpuMonitor	main.go	/^func cpuMonitor(m *monitor) {$/;"	f
+diskMonitor	main.go	/^func diskMonitor(m *monitor) {$/;"	f
+encodeRFC2047	mail.go	/^func encodeRFC2047(String string) string {$/;"	f
+exit	main.go	/^func (m *monitor) exit() {$/;"	f
+filedIP	main.go	/^func filedIP(ipnet *net.IPNet) bool {$/;"	f
+generalConfigFile	main.go	/^func generalConfigFile() {$/;"	f
+getCPUSample	psaux.go	/^func getCPUSample() (idle, total uint64) {$/;"	f
+getIP	main.go	/^func getIP() (a string) {$/;"	f
+loadMonitor	main.go	/^func loadMonitor(m *monitor) {$/;"	f
+main	main.go	/^func (m *monitor) main() {$/;"	f
+main	main.go	/^func main() {$/;"	f
+main	disk.go	/^package main$/;"	p
+main	mail.go	/^package main$/;"	p
+main	main.go	/^package main$/;"	p
+main	psaux.go	/^package main$/;"	p
+memMonitor	main.go	/^func memMonitor(m *monitor) {$/;"	f
+monitorCpu	psaux.go	/^func monitorCpu() {$/;"	f
+monitor	main.go	/^type monitor struct {$/;"	t
+outPutConfigFile	main.go	/^	outPutConfigFile = flag.Bool("o", false, "generate the texas_monitor.ini file")$/;"	v
+sendMail	main.go	/^func (m *monitor) sendMail(title string, body string) {$/;"	f
+verbose	main.go	/^	verbose          = flag.Bool("verbose", false, "enable verbose logging")$/;"	v

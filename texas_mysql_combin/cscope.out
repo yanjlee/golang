@@ -1,0 +1,4067 @@
+cscope 15 /data/work_prj/goprj/src/github.com/texas_mysql_combin               0000020738
+	@texas_mysql_combin.go
+
+1 
+·ckage
+ 
+maš
+
+
+3 
+impÜt
+ (
+
+9 
+_
+ "github.com/ziutek/mymysql/native"
+
+25 
+func
+ 
+	$´štOK
+() {
+
+26 
+fmt
+.
+	`Pršn
+("OK")
+
+27 
+	}
+}
+
+29 
+func
+ 
+	$checkE¼Ü
+(
+”r
+ 
+”rÜ
+) {
+
+30 
+”r
+ !ğ
+n
+ {
+
+31 
+fmt
+.
+	`Pršn
+(
+”r
+)
+
+33 
+os
+.
+	`Ex™
+(1)
+
+35 
+	}
+}
+
+37 
+func
+ 
+checkedResuÉ
+(
+rows
+ []
+mysql
+.
+Row
+, 
+»s
+ mysql.
+ResuÉ
+, 
+”r
+ 
+”rÜ
+è([]
+	gmysql
+.
+	gRow
+, mysql.
+	gResuÉ
+) {
+
+38 
+checkE¼Ü
+(
+”r
+)
+
+39  
+	grows
+, 
+	g»s
+
+
+43 
+ty³
+ 
+Cl›ÁE¼Ü
+ 
+¡ršg
+
+
+45 
+	$func
+ (
+e
+ 
+Cl›ÁE¼Ü
+è
+	$E¼Ü
+(è
+¡ršg
+ {
+
+46  
+	`¡ršg
+(
+e
+)
+
+47 
+	}
+}
+
+50 
+MYSQL_TYPE_DECIMAL
+ = 
+iÙa
+
+
+51 
+MYSQL_TYPE_TINY
+
+
+52 
+MYSQL_TYPE_SHORT
+
+
+53 
+MYSQL_TYPE_LONG
+
+
+54 
+MYSQL_TYPE_FLOAT
+
+
+55 
+MYSQL_TYPE_DOUBLE
+
+
+56 
+MYSQL_TYPE_NULL
+
+
+57 
+MYSQL_TYPE_TIMESTAMP
+
+
+58 
+MYSQL_TYPE_LONGLONG
+
+
+59 
+MYSQL_TYPE_INT24
+
+
+60 
+MYSQL_TYPE_DATE
+
+
+61 
+MYSQL_TYPE_TIME
+
+
+62 
+MYSQL_TYPE_DATETIME
+
+
+63 
+MYSQL_TYPE_YEAR
+
+
+64 
+MYSQL_TYPE_NEWDATE
+
+
+65 
+MYSQL_TYPE_VARCHAR
+
+
+66 
+MYSQL_TYPE_BIT
+
+
+67 
+MYSQL_TYPE_NEWDECIMAL
+ = 246
+
+68 
+MYSQL_TYPE_ENUM
+ = 247
+
+69 
+MYSQL_TYPE_SET
+ = 248
+
+70 
+MYSQL_TYPE_TINY_BLOB
+ = 249
+
+71 
+MYSQL_TYPE_MEDIUM_BLOB
+ = 250
+
+72 
+MYSQL_TYPE_LONG_BLOB
+ = 251
+
+73 
+MYSQL_TYPE_BLOB
+ = 252
+
+74 
+MYSQL_TYPE_VAR_STRING
+ = 253
+
+75 
+MYSQL_TYPE_STRING
+ = 254
+
+76 
+MYSQL_TYPE_GEOMETRY
+ = 255
+
+80 cÚ¡ 
+FIELD_TYPE_DECIMAL
+ = 
+MYSQL_TYPE_DECIMAL
+
+
+81 cÚ¡ 
+FIELD_TYPE_NEWDECIMAL
+ = 
+MYSQL_TYPE_NEWDECIMAL
+
+
+82 cÚ¡ 
+FIELD_TYPE_TINY
+ = 
+MYSQL_TYPE_TINY
+
+
+83 cÚ¡ 
+FIELD_TYPE_SHORT
+ = 
+MYSQL_TYPE_SHORT
+
+
+84 cÚ¡ 
+FIELD_TYPE_LONG
+ = 
+MYSQL_TYPE_LONG
+
+
+85 cÚ¡ 
+FIELD_TYPE_FLOAT
+ = 
+MYSQL_TYPE_FLOAT
+
+
+86 cÚ¡ 
+FIELD_TYPE_DOUBLE
+ = 
+MYSQL_TYPE_DOUBLE
+
+
+87 cÚ¡ 
+FIELD_TYPE_NULL
+ = 
+MYSQL_TYPE_NULL
+
+
+88 cÚ¡ 
+FIELD_TYPE_TIMESTAMP
+ = 
+MYSQL_TYPE_TIMESTAMP
+
+
+89 cÚ¡ 
+FIELD_TYPE_LONGLONG
+ = 
+MYSQL_TYPE_LONGLONG
+
+
+90 cÚ¡ 
+FIELD_TYPE_INT24
+ = 
+MYSQL_TYPE_INT24
+
+
+91 cÚ¡ 
+FIELD_TYPE_DATE
+ = 
+MYSQL_TYPE_DATE
+
+
+92 cÚ¡ 
+FIELD_TYPE_TIME
+ = 
+MYSQL_TYPE_TIME
+
+
+93 cÚ¡ 
+FIELD_TYPE_DATETIME
+ = 
+MYSQL_TYPE_DATETIME
+
+
+94 cÚ¡ 
+FIELD_TYPE_YEAR
+ = 
+MYSQL_TYPE_YEAR
+
+
+95 cÚ¡ 
+FIELD_TYPE_NEWDATE
+ = 
+MYSQL_TYPE_NEWDATE
+
+
+96 cÚ¡ 
+FIELD_TYPE_ENUM
+ = 
+MYSQL_TYPE_ENUM
+
+
+97 cÚ¡ 
+FIELD_TYPE_SET
+ = 
+MYSQL_TYPE_SET
+
+
+98 cÚ¡ 
+FIELD_TYPE_TINY_BLOB
+ = 
+MYSQL_TYPE_TINY_BLOB
+
+
+99 cÚ¡ 
+FIELD_TYPE_MEDIUM_BLOB
+ = 
+MYSQL_TYPE_MEDIUM_BLOB
+
+
+100 cÚ¡ 
+FIELD_TYPE_LONG_BLOB
+ = 
+MYSQL_TYPE_LONG_BLOB
+
+
+101 cÚ¡ 
+FIELD_TYPE_BLOB
+ = 
+MYSQL_TYPE_BLOB
+
+
+102 cÚ¡ 
+FIELD_TYPE_VAR_STRING
+ = 
+MYSQL_TYPE_VAR_STRING
+
+
+103 cÚ¡ 
+FIELD_TYPE_STRING
+ = 
+MYSQL_TYPE_STRING
+
+
+104 cÚ¡ 
+FIELD_TYPE_CHAR
+ = 
+MYSQL_TYPE_TINY
+
+
+105 cÚ¡ 
+FIELD_TYPE_INTERVAL
+ = 
+MYSQL_TYPE_ENUM
+
+
+106 cÚ¡ 
+FIELD_TYPE_GEOMETRY
+ = 
+MYSQL_TYPE_GEOMETRY
+
+
+107 cÚ¡ 
+FIELD_TYPE_BIT
+ = 
+MYSQL_TYPE_BIT
+
+
+109 
+func
+ 
+	$addSÏshes
+(
+¡r
+ 
+¡ršg
+) string {
+
+111 
+¡r
+ = 
+¡ršgs
+.
+	`R•Ïû
+(str, "\\", "\\\\", -1)
+
+112 
+¡r
+ = 
+¡ršgs
+.
+	`R•Ïû
+(str, "'", "\\'", -1)
+
+113 
+¡r
+ = 
+¡ršgs
+.
+	`R•Ïû
+(str, "\"", "\\\"", -1)
+
+115  
+¡r
+
+
+116 
+	}
+}
+
+118 
+func
+ 
+	$g‘MysqlF›ldV®ue
+(
+row
+ 
+mysql
+.
+Row
+, 
+f›ldName
+ 
+¡ršg
+, 
+f›ldIndex
+ , 
+f›ldTy³
+ 
+by‹
+) string {
+
+120 
+f›ldTy³
+ {
+
+122 
+FIELD_TYPE_LONG
+, 
+FIELD_TYPE_TINY
+, 
+FIELD_TYPE_SHORT
+:
+
+123 
+v®
+ :ğ
+row
+.
+	`IÁ
+(
+f›ldIndex
+)
+
+124 
+¡r
+ :ğ
+fmt
+.
+	`S´štf
+("%d", 
+v®
+)
+
+125 *
+v”bo£
+ {
+
+126 
+fmt
+.
+	`Prštf
+("%20s: %s\n", 
+f›ldName
+, 
+¡r
+)
+
+128  
+¡r
+
+
+130 
+FIELD_TYPE_LONGLONG
+:
+
+131 
+v®lÚg
+ :ğ
+row
+.
+	`IÁ64
+(
+f›ldIndex
+)
+
+132 
+¡r
+ :ğ
+fmt
+.
+	`S´štf
+("%d", 
+v®lÚg
+)
+
+133 *
+v”bo£
+ {
+
+134 
+fmt
+.
+	`Prštf
+("%20s: %s\n", 
+f›ldName
+, 
+¡r
+)
+
+136  
+¡r
+
+
+138 
+FIELD_TYPE_VAR_STRING
+, 
+MYSQL_TYPE_STRING
+:
+
+139 
+¡r
+ :ğ
+row
+.
+	`SŒ
+(
+f›ldIndex
+)
+
+140 
+¡r
+ = 
+	`addSÏshes
+(str)
+
+141 *
+v”bo£
+ {
+
+142 
+fmt
+.
+	`Prštf
+("%20s: %s\n", 
+f›ldName
+, 
+¡r
+)
+
+144  "\"" + 
+¡r
+ + "\""
+
+147 
+fmt
+.
+	`Pršn
+("”r:", 
+f›ldName
+, 
+f›ldIndex
+, 
+f›ldTy³
+)
+
+151 
+	}
+}
+
+153 
+ty³
+ 
+mysqlTabËD©a
+ struct {
+
+154 
+š£¹SqlP»fix
+ 
+¡ršg
+
+
+155 
+´efixIniæag
+ 
+by‹
+
+
+157 
+£l
+ 
+	mmysql
+.
+Stmt
+
+
+158 
+bË
+ 
+¡ršg
+
+
+159 
+couÁ”
+ 
+št32
+
+
+161 
+»¶aûF›ld
+ 
+¡ršg
+
+
+162 
+autoInüem’tF›ld
+ 
+	m¡ršg
+
+
+165 
+ty³
+ 
+WÜk”
+ struct {
+
+166 
+wÜk”Id
+ 
+
+167 
+¤cDb
+ 
+	mmysql
+.
+CÚn
+
+
+168 
+d¡Db
+ 
+	mmysql
+.
+CÚn
+
+
+170 
+¡¬tTime
+ 
+	mtime
+.
+Time
+
+
+171 
+	mbËSliû
+ []
+	mmysqlTabËD©a
+
+
+174 
+	$func
+ (
+wk
+ *
+WÜk”
+è
+	$DbP»·»
+(
+sqlS–eù
+ 
+¡ršg
+, 
+sqlFrom
+ sŒšg, 
+sqlIÂ”
+ sŒšg, 
+sqlWh”e
+ sŒšg, 
+autoInüem’tF›ld
+ sŒšg, 
+»¶aûF›ld
+ sŒšgè
+”rÜ
+ {
+
+176 
+sql
+ :ğ"£Ëù " + 
+sqlS–eù
+ + " from " + "`" + 
+sqlFrom
+ + "`" + 
+sqlIÂ”
+ + " wh”" + 
+sqlWh”e
+
+
+178 *
+v”bo£
+ {
+
+179 
+fmt
+.
+	`Pršn
+("DbP»·» sql:", 
+sql
+)
+
+182 
+£l
+, 
+”r
+ :ğ
+wk
+.
+¤cDb
+.
+	`P»·»
+(
+sql
+)
+
+184 
+”r
+ =ğ
+n
+ {
+
+185 
+bËD©a
+ :ğ
+	`Ãw
+(
+mysqlTabËD©a
+)
+
+187 
+bËD©a
+.
+£l
+ = sel
+
+188 
+bËD©a
+.
+bË
+ = 
+sqlFrom
+
+
+189 
+bËD©a
+.
+´efixIniæag
+ = 0
+
+190 
+bËD©a
+.
+»¶aûF›ld
+ =„eplaceField
+
+191 
+bËD©a
+.
+autoInüem’tF›ld
+ =‡utoIncrementField
+
+193 
+wk
+.
+bËSliû
+ = 
+	`­³nd
+(wk.bËSliû, *
+bËD©a
+)
+
+196 
+fmt
+.
+	`Pršn
+(
+sql
+)
+
+197  
+”rÜs
+.
+	`New
+("DbPrepare:‡uthenticationƒrror")
+
+200  
+n
+
+
+201 
+	}
+}
+
+203 
+	$func
+ (
+wk
+ *
+WÜk”
+è
+	$ProûssMysqlStmt
+(
+u£rd©a
+ 
+u£rD©a
+è
+”rÜ
+ {
+
+208 
+i
+, 
+bËD©a
+ :ğ
+¿nge
+ 
+wk
+.
+bËSliû
+ {
+
+211 
+rows
+, 
+»s
+ :ğ
+	`checkedResuÉ
+(
+bËD©a
+.
+£l
+.
+	`Exec
+(
+u£rd©a
+.
+uid
+))
+
+213 
+v¬
+ 
+f›ldIndex
+ 
+
+214 
+v¬
+ 
+f›ldV®ueSŒ
+ 
+¡ršg
+
+
+215 
+v¬
+ 
+sqlP»fix
+ 
+¡ršg
+
+
+216 
+v¬
+ 
+sql
+ 
+¡ršg
+
+
+219 
+bËD©a
+.
+š£¹SqlP»fix
+ == "" {
+
+221 
+sqlP»fix
+ = "š£¹ iÁØ" + 
+bËD©a
+.
+bË
+ + " ("
+
+224 
+_
+, 
+f›ld
+ :ğ
+¿nge
+ 
+»s
+.
+	`F›lds
+() {
+
+226 
+f›ld
+.
+Name
+ =ğ
+bËD©a
+.
+autoInüem’tF›ld
+ {
+
+230 
+f›ldIndex
+ == 0 {
+
+231 
+sqlP»fix
+ +ğ"`" + 
+f›ld
+.
+Name
+ + "`"
+
+233 
+sqlP»fix
+ +ğ",`" + 
+f›ld
+.
+Name
+ + "`"
+
+236 
+f›ldIndex
+++
+
+242 
+sqlP»fix
+ += ") "
+
+244 
+bËD©a
+.
+š£¹SqlP»fix
+ = 
+sqlP»fix
+
+
+245 
+wk
+.
+bËSliû
+[
+i
+].
+š£¹SqlP»fix
+ = 
+sqlP»fix
+
+
+247 
+sqlP»fix
+ = 
+bËD©a
+.
+š£¹SqlP»fix
+
+
+250 
+sqlP»fix
+ += "values("
+
+252 
+_
+, 
+row
+ :ğ
+¿nge
+ 
+rows
+ {
+
+254 
+f›ldIndex
+ = 0
+
+255 
+sql
+ = 
+sqlP»fix
+
+
+257 
+f›ldV®ueIndex
+ := 0
+
+260 
+_
+, 
+f›ld
+ :ğ
+¿nge
+ 
+»s
+.
+	`F›lds
+() {
+
+262 
+f›ld
+.
+Name
+ =ğ
+bËD©a
+.
+autoInüem’tF›ld
+ {
+
+270 
+f›ldIndex
+++
+
+275 
+bËD©a
+.
+»¶aûF›ld
+ =ğ
+f›ld
+.
+Name
+ {
+
+276 
+f›ldV®ueSŒ
+ = 
+fmt
+.
+	`S´štf
+("%d", 
+u£rd©a
+.
+ÃwUid
+)
+
+278 
+f›ldV®ueSŒ
+ = 
+	`g‘MysqlF›ldV®ue
+(
+row
+, 
+f›ld
+.
+Name
+, 
+f›ldIndex
+, f›ld.
+Ty³
+)
+
+281 
+f›ldV®ueIndex
+ == 0 {
+
+282 
+sql
+ +ğ
+f›ldV®ueSŒ
+
+
+284 
+sql
+ +ğ"," + 
+f›ldV®ueSŒ
+
+
+287 
+f›ldIndex
+++
+
+288 
+f›ldV®ueIndex
+++
+
+291 
+sql
+ += ")"
+
+293 *
+v”bo£
+ {
+
+294 
+fmt
+.
+	`Pršn
+(
+sql
+)
+
+305 
+wk
+.
+bËSliû
+[
+i
+].
+couÁ”
+++
+
+311  
+n
+
+
+313 
+	}
+}
+
+315 
+func
+ 
+	$FlushMysqlCache
+(
+tıCÚ
+ *
+tıCÚÃù
+è
+”rÜ
+ {
+
+316 
+¤cDb
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+¤cPrÙo
+, "",ıCÚ.
+¤cAddr
+,ıCÚ.
+¤cU£r
+,ıCÚ.
+¤cPass
+,ıCÚ.
+¤cDbÇme
+)
+
+318 
+d¡Db
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+¤cPrÙo
+, "",ıCÚ.
+¤cAddr
+,ıCÚ.
+¤cU£r
+,ıCÚ.
+¤cPass
+,ıCÚ.
+¤cDbÇme
+)
+
+320 
+fmt
+.
+	`Prštf
+("FlushMysqlCache: CÚÃùØ¤cDb:%s:%s...\n", 
+tıCÚ
+.
+¤cPrÙo
+,ıCÚ.
+¤cAddr
+)
+
+321 
+fmt
+.
+	`Prštf
+("FlushMysqlCache: CÚÃùØd¡Db:%s:%s...\n", 
+tıCÚ
+.
+¤cPrÙo
+,ıCÚ.
+¤cAddr
+)
+
+323 
+	`checkE¼Ü
+(
+¤cDb
+.
+	`CÚÃù
+())
+
+324 
+	`checkE¼Ü
+(
+d¡Db
+.
+	`CÚÃù
+())
+
+326 
+deãr
+ 
+¤cDb
+.
+	`Clo£
+()
+
+327 
+deãr
+ 
+d¡Db
+.
+	`Clo£
+()
+
+329 
+upd©e
+, 
+”r
+ :ğ
+d¡Db
+.
+	`P»·»
+("update `texas_user` set `experience`=?,`win`=?,`lose`=?,`discard`=?,`gamemoney`=?,`gamegold`=? where `id`=?")
+
+330 
+	`checkE¼Ü
+(
+”r
+)
+
+332 
+v¬
+ 
+sql
+ 
+¡ršg
+
+
+335 
+i
+ := 0; i < 10; i++ {
+
+336 
+sql
+ = 
+fmt
+.
+	`S´štf
+("£Ëù * from `‹xas_u£r_%d`", 
+i
+)
+
+337 
+fmt
+.
+	`Pršn
+("Proûss: ", 
+sql
+)
+
+338 
+»s
+, 
+”r
+ :ğ
+¤cDb
+.
+	`S¹
+(
+sql
+)
+
+339 
+	`checkE¼Ü
+(
+”r
+)
+
+341 
+row
+ :ğ
+»s
+.
+	`MakeRow
+()
+
+343 
+uid
+ :ğ
+»s
+.
+	`M­
+("uid")
+
+344 
+ex³r›nû
+ :ğ
+»s
+.
+	`M­
+("experience")
+
+345 
+disÿrd
+ :ğ
+»s
+.
+	`M­
+("discard")
+
+346 
+wš
+ :ğ
+»s
+.
+	`M­
+("win")
+
+347 
+lo£
+ :ğ
+»s
+.
+	`M­
+("lose")
+
+348 
+gamemÚey
+ :ğ
+»s
+.
+	`M­
+("gamemoney")
+
+349 
+gamegŞd
+ :ğ
+»s
+.
+	`M­
+("gamegold")
+
+352 
+”r
+ :ğ
+»s
+.
+	`SÿnRow
+(
+row
+)
+
+353 
+”r
+ =ğ
+io
+.
+EOF
+ {
+
+358 
+	`checkE¼Ü
+(
+”r
+)
+
+372 
+_
+, _, 
+”r
+ = 
+upd©e
+.
+	`Exec
+(
+row
+.
+	`IÁ
+(
+ex³r›nû
+),„ow.IÁ(
+wš
+),„ow.IÁ(
+lo£
+),„ow.IÁ(
+disÿrd
+),„ow.
+	`IÁ64
+(
+gamemÚey
+),„ow.IÁ64(
+gamegŞd
+),„ow.IÁ(
+uid
+))
+
+374 
+	`checkE¼Ü
+(
+”r
+)
+
+378  
+n
+
+
+379 
+	}
+}
+
+381 
+func
+ 
+	$P»ûssChampiÚsh
+(
+tıCÚ
+ *
+tıCÚÃù
+) (, ) {
+
+382 
+¤cDb
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+¤cPrÙo
+, "",ıCÚ.
+¤cAddr
+,ıCÚ.
+¤cU£r
+,ıCÚ.
+¤cPass
+,ıCÚ.
+¤cDbÇme
+)
+
+384 
+d¡Db
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+d¡PrÙo
+, "",ıCÚ.
+d¡Addr
+,ıCÚ.
+d¡U£r
+,ıCÚ.
+d¡Pass
+,ıCÚ.
+d¡DbÇme
+)
+
+386 
+fmt
+.
+	`Prštf
+("P»ûssChampiÚsh: CÚÃùØ¤cDb:%s:%s...\n", 
+tıCÚ
+.
+¤cPrÙo
+,ıCÚ.
+¤cAddr
+)
+
+387 
+fmt
+.
+	`Prštf
+("P»ûssChampiÚsh: CÚÃùØd¡Db:%s:%s...\n", 
+tıCÚ
+.
+¤cPrÙo
+,ıCÚ.
+¤cAddr
+)
+
+389 
+	`checkE¼Ü
+(
+¤cDb
+.
+	`CÚÃù
+())
+
+390 
+	`checkE¼Ü
+(
+d¡Db
+.
+	`CÚÃù
+())
+
+392 
+deãr
+ 
+¤cDb
+.
+	`Clo£
+()
+
+393 
+deãr
+ 
+d¡Db
+.
+	`Clo£
+()
+
+396 
+š£¹
+, 
+”r
+ :ğ
+d¡Db
+.
+	`P»·»
+("insert into `texas_championship` values (?,?,?,?,?,?,?)")
+
+397 
+	`checkE¼Ü
+(
+”r
+)
+
+399 
+v¬
+ 
+sql
+ 
+¡ršg
+
+
+401 
+tm
+ :ğ
+time
+.
+	`Now
+().
+	`Unix
+()
+
+402 
+mšId
+ := 1 << 16
+
+404 
+sql
+ = 
+fmt
+.
+	`S´štf
+("£Ëù * from `‹xas_champiÚsh` wh”`¡¬‰ime` > %d", 
+tm
+)
+
+405 
+fmt
+.
+	`Pršn
+("Proûss: ", 
+sql
+)
+
+406 
+»s
+, 
+”r
+ :ğ
+¤cDb
+.
+	`S¹
+(
+sql
+)
+
+407 
+	`checkE¼Ü
+(
+”r
+)
+
+409 
+row
+ :ğ
+»s
+.
+	`MakeRow
+()
+
+411 
+champId
+ :ğ
+»s
+.
+	`M­
+("id")
+
+412 
+champTy³
+ :ğ
+»s
+.
+	`M­
+("type")
+
+413 
+champTime
+ :ğ
+»s
+.
+	`M­
+("time")
+
+414 
+champS¹time
+ :ğ
+»s
+.
+	`M­
+("starttime")
+
+415 
+champEndtime
+ :ğ
+»s
+.
+	`M­
+("endtime")
+
+416 
+champBÚus
+ :ğ
+»s
+.
+	`M­
+("Bonus")
+
+417 
+champCÚfig_id
+ :ğ
+»s
+.
+	`M­
+("config_id")
+
+419 
+rowCouÁ
+ := 0
+
+421 
+”r
+ :ğ
+»s
+.
+	`SÿnRow
+(
+row
+)
+
+422 
+”r
+ =ğ
+io
+.
+EOF
+ {
+
+427 
+rowCouÁ
+++
+
+429 
+	`checkE¼Ü
+(
+”r
+)
+
+431 
+mšId
+ > 
+row
+.
+	`IÁ
+(
+champId
+) {
+
+432 
+mšId
+ = 
+row
+.
+	`IÁ
+(
+champId
+)
+
+434 
+_
+, _, 
+”r
+ = 
+š£¹
+.
+	`Exec
+(
+row
+.
+	`IÁ
+(
+champId
+),„ow.IÁ(
+champTy³
+),„ow.IÁ(
+champTime
+),„ow.IÁ(
+champS¹time
+),„ow.IÁ(
+champEndtime
+),„ow.IÁ(
+champBÚus
+),„ow.IÁ(
+champCÚfig_id
+))
+
+436 
+	`checkE¼Ü
+(
+”r
+)
+
+439  
+mšId
+, 
+rowCouÁ
+
+
+440 
+	}
+}
+
+443 
+v¬
+ 
+	g‹xasU£rIn£¹SqlP»fix
+ = ""
+
+444 
+func
+ 
+	$š£¹NewAndG‘Uid
+(
+u£rd©as
+ *[]
+u£rD©a
+, 
+rows
+ []
+mysql
+.
+Row
+, 
+»s
+ mysql.
+ResuÉ
+, 
+d¡Db
+ mysql.
+CÚn
+è
+”rÜ
+ {
+
+446 
+v¬
+ 
+f›ldIndex
+ 
+
+447 
+v¬
+ 
+f›ldV®ueSŒ
+ 
+¡ršg
+
+
+448 
+v¬
+ 
+sqlP»fix
+ 
+¡ršg
+
+
+449 
+v¬
+ 
+sql
+ 
+¡ršg
+
+
+451 
+bË
+ := "texas_user"
+
+452 
+»¶aûF›ldName
+ := "id"
+
+454 
+‹xasU£rIn£¹SqlP»fix
+ == "" {
+
+456 
+sqlP»fix
+ = "š£¹ iÁØ" + 
+bË
+ + " ("
+
+459 
+_
+, 
+f›ld
+ :ğ
+¿nge
+ 
+»s
+.
+	`F›lds
+() {
+
+461 
+f›ld
+.
+Name
+ =ğ
+»¶aûF›ldName
+ {
+
+466 
+f›ldIndex
+ == 0 {
+
+467 
+sqlP»fix
+ +ğ"`" + 
+f›ld
+.
+Name
+ + "`"
+
+469 
+sqlP»fix
+ +ğ",`" + 
+f›ld
+.
+Name
+ + "`"
+
+472 
+f›ldIndex
+++
+
+478 
+sqlP»fix
+ += ") "
+
+480 
+‹xasU£rIn£¹SqlP»fix
+ = 
+sqlP»fix
+
+
+482 
+sqlP»fix
+ = 
+‹xasU£rIn£¹SqlP»fix
+
+
+485 
+sqlP»fix
+ += "values("
+
+487 
+_
+, 
+row
+ :ğ
+¿nge
+ 
+rows
+ {
+
+489 
+f›ldIndex
+ = 0
+
+490 
+sql
+ = 
+sqlP»fix
+
+
+491 
+f›ldV®ueIndex
+ := 0
+
+493 
+u£rd©a
+ :ğ
+u£rD©a
+{}
+
+495 
+_
+, 
+f›ld
+ :ğ
+¿nge
+ 
+»s
+.
+	`F›lds
+() {
+
+497 
+f›ld
+.
+Name
+ =ğ
+»¶aûF›ldName
+ {
+
+500 
+»¶aûF›ld
+ :ğ
+»s
+.
+	`M­
+(
+»¶aûF›ldName
+)
+
+501 
+uid
+ :ğ
+row
+.
+	`IÁ
+(
+»¶aûF›ld
+)
+
+503 
+u£rd©a
+.
+uid
+ = uid
+
+507 
+f›ldIndex
+++
+
+511 
+f›ldV®ueSŒ
+ = 
+	`g‘MysqlF›ldV®ue
+(
+row
+, 
+f›ld
+.
+Name
+, 
+f›ldIndex
+, f›ld.
+Ty³
+)
+
+513 
+f›ldV®ueIndex
+ == 0 {
+
+514 
+sql
+ +ğ
+f›ldV®ueSŒ
+
+
+516 
+sql
+ +ğ"," + 
+f›ldV®ueSŒ
+
+
+519 
+f›ldIndex
+++
+
+520 
+f›ldV®ueIndex
+++
+
+523 
+sql
+ += ")"
+
+525 *
+v”bo£
+ {
+
+526 
+fmt
+.
+	`Pršn
+(
+sql
+)
+
+530 
+dRes
+, 
+”r
+ :ğ
+d¡Db
+.
+	`S¹
+(
+sql
+)
+
+532 
+”r
+ !ğ
+n
+ {
+
+533 
+fmt
+.
+	`Pršn
+(
+sql
+)
+
+534 
+	`·nic
+(
+”r
+)
+
+538 
+ÃwUid
+ :ğ
+dRes
+.
+	`In£¹Id
+()
+
+540 
+u£rd©a
+.
+ÃwUid
+ = (newUid)
+
+543 *
+u£rd©as
+ = 
+	`­³nd
+(*u£rd©as, 
+u£rd©a
+)
+
+548  
+n
+
+
+549 
+	}
+}
+
+552 
+func
+ 
+	$g‘Uids
+(
+u£rd©as
+ *[]
+u£rD©a
+, 
+£l
+ 
+mysql
+.
+Stmt
+, 
+¡¬tUid
+ , 
+d¡Db
+ mysql.
+CÚn
+è
+”rÜ
+ {
+
+554 
+rows
+, 
+»s
+ :ğ
+	`checkedResuÉ
+(
+£l
+.
+	`Exec
+(
+¡¬tUid
+))
+
+556 
+	`š£¹NewAndG‘Uid
+(
+u£rd©as
+, 
+rows
+, 
+»s
+, 
+d¡Db
+)
+
+568  
+n
+
+
+569 
+	}
+}
+
+571 
+ty³
+ 
+tıCÚÃù
+ struct {
+
+572 
+¤cU£r
+ 
+¡ršg
+
+
+573 
+¤cPass
+ 
+¡ršg
+
+
+574 
+¤cDbÇme
+ 
+¡ršg
+
+
+575 
+¤cPrÙo
+ 
+¡ršg
+
+
+576 
+¤cAddr
+ 
+¡ršg
+
+
+578 
+d¡U£r
+ 
+¡ršg
+
+
+579 
+d¡Pass
+ 
+¡ršg
+
+
+580 
+d¡DbÇme
+ 
+¡ršg
+
+
+581 
+d¡PrÙo
+ 
+¡ršg
+
+
+582 
+d¡Addr
+ 
+¡ršg
+
+
+584 
+­pId
+ 
+
+587 
+ty³
+ 
+¡©i¡ics
+ struct {
+
+588 
+m­d©a
+ 
+	mm­
+[
+¡ršg
+]
+št32
+
+
+589 
+	msync
+.
+	mMu‹x
+
+
+592 
+ty³
+ 
+u£rD©a
+ struct {
+
+593 
+uid
+ 
+
+594 
+ÃwUid
+ 
+
+597 
+func
+ 
+ÃwWÜk”
+(
+wÜk”Id
+ è*
+	gWÜk”
+ {
+
+598 
+	gn
+ :ğ&
+WÜk”
+{
+
+599 
+wÜk”Id
+: workerId,
+
+600 
+bËSliû
+: []
+mysqlTabËD©a
+{},
+
+603  
+n
+
+
+606 
+func
+ 
+	$g‘UidWÜk”
+(
+tıCÚ
+ *
+tıCÚÃù
+, 
+u£rChª
+ 
+chª
+ 
+u£rD©a
+, 
+ex™Chª
+ chª è
+”rÜ
+ {
+
+608 
+¤cDb
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+¤cPrÙo
+, "",ıCÚ.
+¤cAddr
+,ıCÚ.
+¤cU£r
+,ıCÚ.
+¤cPass
+,ıCÚ.
+¤cDbÇme
+)
+
+609 
+d¡Db
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+d¡PrÙo
+, "",ıCÚ.
+d¡Addr
+,ıCÚ.
+d¡U£r
+,ıCÚ.
+d¡Pass
+,ıCÚ.
+d¡DbÇme
+)
+
+611 
+fmt
+.
+	`Prštf
+("g‘UidWÜk” CÚÃùØ¤cDb:%s:%s...\n", 
+tıCÚ
+.
+¤cPrÙo
+,ıCÚ.
+¤cAddr
+)
+
+612 
+fmt
+.
+	`Prštf
+("g‘UidWÜk” CÚÃùØd¡Db:%s:%s...\n", 
+tıCÚ
+.
+d¡PrÙo
+,ıCÚ.
+d¡Addr
+)
+
+614 
+	`checkE¼Ü
+(
+¤cDb
+.
+	`CÚÃù
+())
+
+615 
+	`checkE¼Ü
+(
+d¡Db
+.
+	`CÚÃù
+())
+
+616 
+deãr
+ 
+¤cDb
+.
+	`Clo£
+()
+
+617 
+deãr
+ 
+d¡Db
+.
+	`Clo£
+()
+
+619 
+fmt
+.
+	`Pršn
+("getUidWorker åˆå§‹åŒ–å®Œæˆ")
+
+623 
+¡¬t
+ :ğ
+time
+.
+	`Now
+()
+
+625 
+u£rD©as
+ :ğ
+	`make
+([]
+u£rD©a
+, 0, 100)
+
+627 
+¡¬tUid
+ := 0
+
+630 
+£l
+, 
+”r
+ :ğ
+¤cDb
+.
+	`P»·»
+(
+fmt
+.
+	`S´štf
+("select * from `texas_user` where `id` > ? order by `id`†imit 1"))
+
+631 
+	`checkE¼Ü
+(
+”r
+)
+
+633 
+row
+, 
+_
+, 
+”r
+ :ğ
+¤cDb
+.
+	`Qu”yFœ¡
+(
+fmt
+.
+	`S´štf
+("select count(*)‡s `total` from `texas_user`"))
+
+634 
+	`checkE¼Ü
+(
+”r
+)
+
+636 
+tÙ®Uid
+ :ğ
+row
+.
+	`IÁ
+(0)
+
+637 
+fmt
+.
+	`Prštf
+("tÙ® uid ğ%d\n", 
+tÙ®Uid
+)
+
+639 
+v¬
+ 
+cu¼’tUid
+ 
+æßt64
+
+
+640 
+³rûÁage
+ := 0
+
+643 
+	`g‘Uids
+(&
+u£rD©as
+, 
+£l
+, 
+¡¬tUid
+, 
+d¡Db
+)
+
+647 
+v¬
+ 
+u£rd©a
+ 
+u£rD©a
+
+
+648 
+_
+, 
+u£rd©a
+ = 
+¿nge
+ 
+u£rD©as
+ {
+
+650 *
+v”bo£
+ {
+
+651 
+fmt
+.
+	`Prštf
+("puˆuid=%d iÁØu£rChª\n", 
+u£rd©a
+)
+
+654 
+¡¬tUid
+ = 
+u£rd©a
+.
+uid
+
+
+656 
+u£rChª
+ <- 
+u£rd©a
+
+
+658 
+cu¼’tUid
+++
+
+661 
+tmpP”ûÁage
+ :ğ
+cu¼’tUid
+ / 
+	`æßt64
+(
+tÙ®Uid
+è* 100; ÑmpP”ûÁageè!ğ
+³rûÁage
+ {
+
+663 
+–­£dTime
+ :ğ
+time
+.
+	`Sšû
+(
+¡¬t
+)
+
+665 
+³rûÁage
+ = (
+tmpP”ûÁage
+)
+
+667 
+fmt
+.
+	`Prštf
+("Prog»ss: %2d%%ƒÏp£dime: %s\n", 
+³rûÁage
+, 
+–­£dTime
+)
+
+671 
+u£rD©as
+ = []
+u£rD©a
+{}
+
+673 
+¡¬tUid
+ !ğ
+u£rd©a
+.
+uid
+ {
+
+674 
+¡¬tUid
+ = 
+u£rd©a
+.
+uid
+
+
+677 
+u£rd©a
+.
+uid
+ == 0 {
+
+678 
+ex™
+
+
+681 
+fmt
+.
+	`Pršn
+("testƒxit")
+
+682 
+ex™
+
+
+685 
+ex™
+:
+
+686 
+	`Ën
+(
+u£rChª
+) != 0 {
+
+687 
+time
+.
+	`SË•
+Ñime.
+Mli£cÚd
+ * 100)
+
+688 
+fmt
+.
+	`Pršn
+("progressƒxiting: wait userChan„ead finish")
+
+689 
+ex™
+
+
+692 
+fmt
+.
+	`Pršn
+("progressƒxit")
+
+694 
+	`şo£
+(
+ex™Chª
+)
+
+696  
+n
+
+
+698 
+	}
+}
+
+701 
+func
+ 
+	$pubWÜk”
+(
+tıCÚ
+ *
+tıCÚÃù
+, 
+u£rChª
+ 
+chª
+ 
+u£rD©a
+, 
+ex™Chª
+ chª , 
+wÜk”Id
+ , 
+¡¬tTime
+ 
+time
+.
+Time
+, 
+¡©
+ *
+¡©i¡ics
+è
+”rÜ
+ {
+
+703 
+¤cDb
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+¤cPrÙo
+, "",ıCÚ.
+¤cAddr
+,ıCÚ.
+¤cU£r
+,ıCÚ.
+¤cPass
+,ıCÚ.
+¤cDbÇme
+)
+
+704 
+d¡Db
+ :ğ
+thr§ã
+.
+	`New
+(
+tıCÚ
+.
+d¡PrÙo
+, "",ıCÚ.
+d¡Addr
+,ıCÚ.
+d¡U£r
+,ıCÚ.
+d¡Pass
+,ıCÚ.
+d¡DbÇme
+)
+
+706 
+fmt
+.
+	`Prštf
+("wÜk”: %d CÚÃùØ¤cDb:%s:%s...\n", 
+wÜk”Id
+, 
+tıCÚ
+.
+¤cPrÙo
+,ıCÚ.
+¤cAddr
+)
+
+707 
+fmt
+.
+	`Prštf
+("wÜk”: %d CÚÃùØd¡Db:%s:%s...\n", 
+wÜk”Id
+, 
+tıCÚ
+.
+d¡PrÙo
+,ıCÚ.
+d¡Addr
+)
+
+709 
+	`checkE¼Ü
+(
+¤cDb
+.
+	`CÚÃù
+())
+
+710 
+	`checkE¼Ü
+(
+d¡Db
+.
+	`CÚÃù
+())
+
+712 
+fmt
+.
+	`Prštf
+("wÜk”: %d åˆå§‹åŒ–æˆåŠŸ\n", 
+wÜk”Id
+)
+
+714 
+deãr
+ 
+¤cDb
+.
+	`Clo£
+()
+
+715 
+deãr
+ 
+d¡Db
+.
+	`Clo£
+()
+
+717 
+tm
+ :ğ
+time
+.
+	`Now
+().
+	`Unix
+()
+
+719 
+wÜk”
+ :ğ
+	`ÃwWÜk”
+(
+wÜk”Id
+)
+
+721 
+wÜk”
+.
+¤cDb
+ = srcDb
+
+722 
+wÜk”
+.
+d¡Db
+ = dstDb
+
+723 
+wÜk”
+.
+¡¬tTime
+ = startTime
+
+733 
+”r
+ :ğ
+wÜk”
+.
+	`DbP»·»
+("*", "‹xas_u£r_v", "", 
+fmt
+.
+	`S´štf
+("uid = ?‡nd (expœ‘imğ0 o¸expœ‘im> %d)", 
+tm
+), "id", "uid")
+
+734 
+	`checkE¼Ü
+(
+”r
+)
+
+738 
+”r
+ = 
+wÜk”
+.
+	`DbP»·»
+("*", "‹xas_u£r_expÿrd", "", 
+fmt
+.
+	`S´štf
+("uid = ?‡nd (’d_tim=0 o¸’d_tim> %d)", 
+tm
+), "id", "uid")
+
+739 
+	`checkE¼Ü
+(
+”r
+)
+
+742 
+”r
+ = 
+wÜk”
+.
+	`DbP»·»
+("*", "texas_user_loudspeaker", "", "uid = ?‡nd `amount` != 0 ", "id", "uid")
+
+743 
+	`checkE¼Ü
+(
+”r
+)
+
+746 
+”r
+ = 
+wÜk”
+.
+	`DbP»·»
+("*", "‹xas_u£r_´İs", "", 
+fmt
+.
+	`S´štf
+("uid = ?‡nd `expœ‘ime` > %d", 
+tm
+), "id", "uid")
+
+747 
+	`checkE¼Ü
+(
+”r
+)
+
+750 
+”r
+ = 
+wÜk”
+.
+	`DbP»·»
+("*", "texas_user_expression", "", "uid = ?‡nd `amount`!=0", "id", "uid")
+
+751 
+	`checkE¼Ü
+(
+”r
+)
+
+754 
+”r
+ = 
+wÜk”
+.
+	`DbP»·»
+("*", "texas_user_achievement", "", "uid = ?", "", "uid")
+
+755 
+	`checkE¼Ü
+(
+”r
+)
+
+766 
+”r
+ = 
+wÜk”
+.
+	`DbP»·»
+("*", "texas_user_task", "", "uid = ?", "id", "uid")
+
+767 
+	`checkE¼Ü
+(
+”r
+)
+
+834 
+£Ëù
+ {
+
+835 
+u£rd©a
+, 
+ok
+ :ğ<-
+u£rChª
+:
+
+836 
+ok
+ {
+
+837 *
+v”bo£
+ {
+
+838 
+fmt
+.
+	`Pršn
+("´oûs u£r:", 
+u£rd©a
+)
+
+841 
+fmt
+.
+	`Pršn
+("´oûs u£r:", 
+u£rd©a
+)
+
+842 
+wÜk”
+.
+	`ProûssMysqlStmt
+(
+u£rd©a
+)
+
+845 
+fmt
+.
+	`Prštf
+("wÜk”: %d u£rChª clo£\n", 
+wÜk”Id
+)
+
+846 
+ex™Tab
+
+
+849 <-
+ex™Chª
+:
+
+851 
+ex™Tab
+
+
+855 
+ex™Tab
+:
+
+856 
+fmt
+.
+	`Prštf
+("wÜk”: %dƒx™\n", 
+wÜk”Id
+)
+
+857 
+_
+, 
+bËD©a
+ :ğ
+¿nge
+ 
+wÜk”
+.
+bËSliû
+ {
+
+858 
+¡©
+.
+	`Lock
+()
+
+859 
+¡©
+.
+m­d©a
+[
+bËD©a
+.
+bË
+] +ğbËD©a.
+couÁ”
+
+
+860 
+¡©
+.
+	`UÆock
+()
+
+862  
+n
+
+
+863 
+	}
+}
+
+865 
+func
+ 
+	$g’”®CÚfigFe
+() {
+
+866 
+b
+ :ğ[]
+	`by‹
+(
+
+867 `[
+Aµ
+]
+
+868 
+AµID
+=1
+
+870 [
+SrcDB
+]
+
+871 
+Name
+=
+‹xas
+
+
+872 
+U£r
+=
+‹xas
+
+
+873 
+Ip
+=172.16.5.200
+
+874 
+PÜt
+=3306
+
+875 
+Pwd
+=
+
+877 [
+D¡DB
+]
+
+878 
+Name
+=
+‹xas_hung¬y
+
+
+879 
+U£r
+=
+‹xas
+
+
+880 
+Ip
+=172.16.5.200
+
+881 
+PÜt
+=3306
+
+882 
+Pwd
+=
+
+884 
+”r
+ :ğ
+iout
+.
+	`Wr™eFe
+("‹xas_mysql.ši", 
+b
+, 0644)
+
+885 
+”r
+ !ğ
+n
+ {
+
+886 
+log
+.
+	`F©®f
+("FaedØg’”®exas_mysql.ši: %s", 
+”r
+)
+
+889 
+fmt
+.
+	`Pršn
+("generalexas_mysql.ini successful")
+
+890 
+	}
+}
+
+892 
+v¬
+ (
+
+895 
+v”bo£
+ = 
+æag
+.
+BoŞ
+("v”bo£", 
+çl£
+, "enable verbose†ogging")
+
+896 
+outPutCÚfigFe
+ = 
+æag
+.
+BoŞ
+("o", 
+çl£
+, "generateheexas_mysql.ini file")
+
+899 
+ty³
+ 
+CÚfig
+ struct {
+
+900 
+Aµ
+ struct {
+
+901 
+AµID
+ 
+
+904 
+SrcDB
+ struct {
+
+905 
+Name
+ 
+¡ršg
+
+
+906 
+U£r
+ 
+¡ršg
+
+
+907 
+Ip
+ 
+¡ršg
+
+
+908 
+PÜt
+ 
+¡ršg
+
+
+909 
+Pwd
+ 
+	m¡ršg
+
+
+912 
+D¡DB
+ struct {
+
+913 
+Name
+ 
+¡ršg
+
+
+914 
+U£r
+ 
+¡ršg
+
+
+915 
+Ip
+ 
+¡ršg
+
+
+916 
+PÜt
+ 
+¡ršg
+
+
+917 
+Pwd
+ 
+	m¡ršg
+
+
+921 
+func
+ 
+	$maš
+() {
+
+923 
+v¬
+ 
+cfg
+ 
+CÚfig
+
+
+924 
+v¬
+ 
+d¡DbPwd
+ 
+¡ršg
+
+
+925 
+v¬
+ 
+¤cDbPwd
+ 
+¡ršg
+
+
+927 
+æag
+.
+	`P¬£
+()
+
+928 *
+outPutCÚfigFe
+ {
+
+929 
+	`g’”®CÚfigFe
+()
+
+933 
+”r
+ :ğ
+gcfg
+.
+	`R—dFeIÁo
+(&
+cfg
+, "texas_mysql.ini")
+
+934 
+”r
+ !ğ
+n
+ {
+
+935 
+log
+.
+	`F©®f
+("FaedØ·r£exas_mysql.ši: %s", 
+”r
+)
+
+938 
+fmt
+.
+	`Pršn
+("­pid: ", 
+cfg
+.
+Aµ
+.
+AµID
+)
+
+940 
+fmt
+.
+	`Pršn
+("SrcDB Name:", 
+cfg
+.
+SrcDB
+.
+Name
+)
+
+941 
+fmt
+.
+	`Pršn
+("SrcDB U£r:", 
+cfg
+.
+SrcDB
+.
+U£r
+)
+
+942 
+fmt
+.
+	`Pršn
+("SrcDB Ip:", 
+cfg
+.
+SrcDB
+.
+Ip
+)
+
+943 
+fmt
+.
+	`Pršn
+("SrcDB PÜt:", 
+cfg
+.
+SrcDB
+.
+PÜt
+)
+
+944 
+fmt
+.
+	`Pršn
+("SrcDB Pwd:", 
+cfg
+.
+SrcDB
+.
+Pwd
+)
+
+946 
+fmt
+.
+	`Pršn
+("D¡DB Name:", 
+cfg
+.
+D¡DB
+.
+Name
+)
+
+947 
+fmt
+.
+	`Pršn
+("D¡DB PÜt:", 
+cfg
+.
+D¡DB
+.
+PÜt
+)
+
+948 
+fmt
+.
+	`Pršn
+("D¡DB Ip:", 
+cfg
+.
+D¡DB
+.
+Ip
+)
+
+949 
+fmt
+.
+	`Pršn
+("D¡DB U£r:", 
+cfg
+.
+D¡DB
+.
+U£r
+)
+
+950 
+fmt
+.
+	`Pršn
+("D¡DB Pwd:", 
+cfg
+.
+D¡DB
+.
+Pwd
+)
+
+952 
+cfg
+.
+Aµ
+.
+AµID
+ == 0 {
+
+953 
+log
+.
+	`F©®f
+("config: AppIDƒrr")
+
+956 
+cfg
+.
+SrcDB
+.
+Name
+ == "" {
+
+957 
+log
+.
+	`F©®f
+("config: SrcDB Nameƒrr")
+
+960 
+cfg
+.
+SrcDB
+.
+Ip
+ == "" {
+
+961 
+log
+.
+	`F©®f
+("config: SrcDB Ipƒrr")
+
+968 
+cfg
+.
+D¡DB
+.
+Name
+ == "" {
+
+969 
+log
+.
+	`F©®f
+("config: DstDB Nameƒrr")
+
+972 
+cfg
+.
+D¡DB
+.
+Ip
+ == "" {
+
+973 
+log
+.
+	`F©®f
+("config: DstDB Ipƒrr")
+
+980 
+cfg
+.
+SrcDB
+.
+Pwd
+ == "" {
+
+981 
+fmt
+.
+	`Pršn
+("please inputhe SrcDB…assword")
+
+982 
+¤cDbPwd
+ = 
+	`¡ršg
+(
+gİass
+.
+	`G‘Passwd
+())
+
+984 
+¤cDbPwd
+ = 
+cfg
+.
+SrcDB
+.
+Pwd
+
+
+987 
+cfg
+.
+D¡DB
+.
+Pwd
+ == "" {
+
+988 
+fmt
+.
+	`Pršn
+("please inputhe DstDB…assword")
+
+989 
+d¡DbPwd
+ = 
+	`¡ršg
+(
+gİass
+.
+	`G‘Passwd
+())
+
+991 
+d¡DbPwd
+ = 
+cfg
+.
+D¡DB
+.
+Pwd
+
+
+994 
+tıCÚ
+ :ğ
+	`Ãw
+(
+tıCÚÃù
+)
+
+995 
+tıCÚ
+.
+¤cU£r
+ = 
+cfg
+.
+SrcDB
+.
+U£r
+
+
+996 
+tıCÚ
+.
+¤cPass
+ = 
+¤cDbPwd
+
+
+997 
+tıCÚ
+.
+¤cDbÇme
+ = 
+cfg
+.
+SrcDB
+.
+Name
+
+
+998 
+tıCÚ
+.
+¤cPrÙo
+ = "tcp"
+
+999 
+tıCÚ
+.
+¤cAddr
+ = 
+cfg
+.
+SrcDB
+.
+Ip
+ + ":" + cfg.SrcDB.
+PÜt
+
+
+1001 
+tıCÚ
+.
+d¡U£r
+ = 
+cfg
+.
+D¡DB
+.
+U£r
+
+
+1002 
+tıCÚ
+.
+d¡Pass
+ = 
+d¡DbPwd
+
+
+1003 
+tıCÚ
+.
+d¡DbÇme
+ = 
+cfg
+.
+D¡DB
+.
+Name
+
+
+1004 
+tıCÚ
+.
+d¡PrÙo
+ = "tcp"
+
+1005 
+tıCÚ
+.
+d¡Addr
+ = 
+cfg
+.
+D¡DB
+.
+Ip
+ + ":" + cfg.D¡DB.
+PÜt
+
+
+1007 
+tıCÚ
+.
+­pId
+ = 
+cfg
+.
+Aµ
+.
+AµID
+
+
+1010 
+fmt
+.
+	`Pršn
+("press Enter keyo continue or Ctrl-C for break")
+
+1011 
+bufio
+.
+	`NewR—d”
+(
+os
+.
+Stdš
+).
+	`R—dBy‹s
+('\n')
+
+1014 
+ıusNum
+ :ğ
+ruÁime
+.
+	`GOMAXPROCS
+(0)
+
+1015 
+ıusNum
+ = 4
+
+1017 
+u£rChª
+ :ğ
+	`make
+(
+chª
+ 
+u£rD©a
+, 
+ıusNum
+)
+
+1018 
+ex™Chª
+ :ğ
+	`make
+(
+chª
+ )
+
+1029 
+go
+ 
+	`g‘UidWÜk”
+(
+tıCÚ
+, 
+u£rChª
+, 
+ex™Chª
+)
+
+1031 
+v¬
+ 
+wg
+ 
+sync
+.
+Wa™Group
+
+
+1032 
+¡©
+ :ğ&
+¡©i¡ics
+{
+m­d©a
+: 
+	`make
+(
+m­
+[
+¡ršg
+]
+št32
+)}
+
+1034 
+¡¬t
+ :ğ
+time
+.
+	`Now
+()
+
+1035 
+j
+ :ğ0; j < 
+ıusNum
+; j++ {
+
+1037 
+wg
+.
+	`Add
+(1)
+
+1038 
+go
+ 
+	`func
+(
+id
+ , 
+¡¬tTime
+ 
+time
+.
+Time
+) {
+
+1039 
+	`pubWÜk”
+(
+tıCÚ
+, 
+u£rChª
+, 
+ex™Chª
+, 
+id
+, 
+¡¬tTime
+, 
+¡©
+)
+
+1040 
+wg
+.
+	`DÚe
+()
+
+1041 }(
+j
+, 
+¡¬t
+)
+
+1044 
+wg
+.
+	`Wa™
+()
+
+1045 
+’d
+ :ğ
+time
+.
+	`Now
+()
+
+1046 
+du¿tiÚ
+ :ğ
+’d
+.
+	`Sub
+(
+¡¬t
+)
+
+1049 
+fmt
+.
+	`Pršn
+("\nstatistics:")
+
+1050 
+fmt
+.
+	`Prštf
+("%-30  %s\n", "du¿tiÚ", 
+du¿tiÚ
+)
+
+1052 
+key
+, 
+v®ue
+ :ğ
+¿nge
+ 
+¡©
+.
+m­d©a
+ {
+
+1053 
+fmt
+.
+	`Prštf
+("%-30  %5d„ows\n", 
+key
+, 
+v®ue
+)
+
+1057 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+1
+22
+texas_mysql_combin.go

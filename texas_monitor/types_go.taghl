@@ -1,0 +1,5 @@
+syn keyword CTagsVariable outPutConfigFile verbose
+syn keyword CTagsPackage main
+syn keyword CTagsFunction generalConfigFile monitorCpu main SendMail filedIP sendMail loadMonitor cpuMonitor memMonitor diskMonitor exit encodeRFC2047 Wrap getIP getCPUSample GetDiskStatus GetCpuStat
+syn keyword CTagsType Process Config monitor DiskStatus
+

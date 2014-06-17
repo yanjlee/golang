@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ClientError	texas_mysql_combin.go	/^type ClientError string$/;"	t
+Config	texas_mysql_combin.go	/^type Config struct {$/;"	t
+DbPrepare	texas_mysql_combin.go	/^func (wk *Worker) DbPrepare(sqlSelect string, sqlFrom string, sqlInner string, sqlWhere string, autoIncrementField string, replaceField string) error {$/;"	f
+Error	texas_mysql_combin.go	/^func (e ClientError) Error() string {$/;"	f
+FIELD_TYPE_BIT	texas_mysql_combin.go	/^const FIELD_TYPE_BIT = MYSQL_TYPE_BIT$/;"	c
+FIELD_TYPE_BLOB	texas_mysql_combin.go	/^const FIELD_TYPE_BLOB = MYSQL_TYPE_BLOB$/;"	c
+FIELD_TYPE_CHAR	texas_mysql_combin.go	/^const FIELD_TYPE_CHAR = MYSQL_TYPE_TINY$/;"	c
+FIELD_TYPE_DATE	texas_mysql_combin.go	/^const FIELD_TYPE_DATE = MYSQL_TYPE_DATE$/;"	c
+FIELD_TYPE_DATETIME	texas_mysql_combin.go	/^const FIELD_TYPE_DATETIME = MYSQL_TYPE_DATETIME$/;"	c
+FIELD_TYPE_DECIMAL	texas_mysql_combin.go	/^const FIELD_TYPE_DECIMAL = MYSQL_TYPE_DECIMAL$/;"	c
+FIELD_TYPE_DOUBLE	texas_mysql_combin.go	/^const FIELD_TYPE_DOUBLE = MYSQL_TYPE_DOUBLE$/;"	c
+FIELD_TYPE_ENUM	texas_mysql_combin.go	/^const FIELD_TYPE_ENUM = MYSQL_TYPE_ENUM$/;"	c
+FIELD_TYPE_FLOAT	texas_mysql_combin.go	/^const FIELD_TYPE_FLOAT = MYSQL_TYPE_FLOAT$/;"	c
+FIELD_TYPE_GEOMETRY	texas_mysql_combin.go	/^const FIELD_TYPE_GEOMETRY = MYSQL_TYPE_GEOMETRY$/;"	c
+FIELD_TYPE_INT24	texas_mysql_combin.go	/^const FIELD_TYPE_INT24 = MYSQL_TYPE_INT24$/;"	c
+FIELD_TYPE_INTERVAL	texas_mysql_combin.go	/^const FIELD_TYPE_INTERVAL = MYSQL_TYPE_ENUM$/;"	c
+FIELD_TYPE_LONG	texas_mysql_combin.go	/^const FIELD_TYPE_LONG = MYSQL_TYPE_LONG$/;"	c
+FIELD_TYPE_LONGLONG	texas_mysql_combin.go	/^const FIELD_TYPE_LONGLONG = MYSQL_TYPE_LONGLONG$/;"	c
+FIELD_TYPE_LONG_BLOB	texas_mysql_combin.go	/^const FIELD_TYPE_LONG_BLOB = MYSQL_TYPE_LONG_BLOB$/;"	c
+FIELD_TYPE_MEDIUM_BLOB	texas_mysql_combin.go	/^const FIELD_TYPE_MEDIUM_BLOB = MYSQL_TYPE_MEDIUM_BLOB$/;"	c
+FIELD_TYPE_NEWDATE	texas_mysql_combin.go	/^const FIELD_TYPE_NEWDATE = MYSQL_TYPE_NEWDATE$/;"	c
+FIELD_TYPE_NEWDECIMAL	texas_mysql_combin.go	/^const FIELD_TYPE_NEWDECIMAL = MYSQL_TYPE_NEWDECIMAL$/;"	c
+FIELD_TYPE_NULL	texas_mysql_combin.go	/^const FIELD_TYPE_NULL = MYSQL_TYPE_NULL$/;"	c
+FIELD_TYPE_SET	texas_mysql_combin.go	/^const FIELD_TYPE_SET = MYSQL_TYPE_SET$/;"	c
+FIELD_TYPE_SHORT	texas_mysql_combin.go	/^const FIELD_TYPE_SHORT = MYSQL_TYPE_SHORT$/;"	c
+FIELD_TYPE_STRING	texas_mysql_combin.go	/^const FIELD_TYPE_STRING = MYSQL_TYPE_STRING$/;"	c
+FIELD_TYPE_TIME	texas_mysql_combin.go	/^const FIELD_TYPE_TIME = MYSQL_TYPE_TIME$/;"	c
+FIELD_TYPE_TIMESTAMP	texas_mysql_combin.go	/^const FIELD_TYPE_TIMESTAMP = MYSQL_TYPE_TIMESTAMP$/;"	c
+FIELD_TYPE_TINY	texas_mysql_combin.go	/^const FIELD_TYPE_TINY = MYSQL_TYPE_TINY$/;"	c
+FIELD_TYPE_TINY_BLOB	texas_mysql_combin.go	/^const FIELD_TYPE_TINY_BLOB = MYSQL_TYPE_TINY_BLOB$/;"	c
+FIELD_TYPE_VAR_STRING	texas_mysql_combin.go	/^const FIELD_TYPE_VAR_STRING = MYSQL_TYPE_VAR_STRING$/;"	c
+FIELD_TYPE_YEAR	texas_mysql_combin.go	/^const FIELD_TYPE_YEAR = MYSQL_TYPE_YEAR$/;"	c
+FlushMysqlCache	texas_mysql_combin.go	/^func FlushMysqlCache(tcpCon *tcpConnect) error {$/;"	f
+MYSQL_TYPE_BIT	texas_mysql_combin.go	/^	MYSQL_TYPE_BIT$/;"	c
+MYSQL_TYPE_BLOB	texas_mysql_combin.go	/^	MYSQL_TYPE_BLOB        = 252$/;"	c
+MYSQL_TYPE_DATE	texas_mysql_combin.go	/^	MYSQL_TYPE_DATE$/;"	c
+MYSQL_TYPE_DATETIME	texas_mysql_combin.go	/^	MYSQL_TYPE_DATETIME$/;"	c
+MYSQL_TYPE_DECIMAL	texas_mysql_combin.go	/^	MYSQL_TYPE_DECIMAL = iota \/\/ == 0$/;"	c
+MYSQL_TYPE_DOUBLE	texas_mysql_combin.go	/^	MYSQL_TYPE_DOUBLE$/;"	c
+MYSQL_TYPE_ENUM	texas_mysql_combin.go	/^	MYSQL_TYPE_ENUM        = 247$/;"	c
+MYSQL_TYPE_FLOAT	texas_mysql_combin.go	/^	MYSQL_TYPE_FLOAT$/;"	c
+MYSQL_TYPE_GEOMETRY	texas_mysql_combin.go	/^	MYSQL_TYPE_GEOMETRY    = 255$/;"	c
+MYSQL_TYPE_INT24	texas_mysql_combin.go	/^	MYSQL_TYPE_INT24$/;"	c
+MYSQL_TYPE_LONG	texas_mysql_combin.go	/^	MYSQL_TYPE_LONG$/;"	c
+MYSQL_TYPE_LONGLONG	texas_mysql_combin.go	/^	MYSQL_TYPE_LONGLONG$/;"	c
+MYSQL_TYPE_LONG_BLOB	texas_mysql_combin.go	/^	MYSQL_TYPE_LONG_BLOB   = 251$/;"	c
+MYSQL_TYPE_MEDIUM_BLOB	texas_mysql_combin.go	/^	MYSQL_TYPE_MEDIUM_BLOB = 250$/;"	c
+MYSQL_TYPE_NEWDATE	texas_mysql_combin.go	/^	MYSQL_TYPE_NEWDATE$/;"	c
+MYSQL_TYPE_NEWDECIMAL	texas_mysql_combin.go	/^	MYSQL_TYPE_NEWDECIMAL  = 246$/;"	c
+MYSQL_TYPE_NULL	texas_mysql_combin.go	/^	MYSQL_TYPE_NULL$/;"	c
+MYSQL_TYPE_SET	texas_mysql_combin.go	/^	MYSQL_TYPE_SET         = 248$/;"	c
+MYSQL_TYPE_SHORT	texas_mysql_combin.go	/^	MYSQL_TYPE_SHORT$/;"	c
+MYSQL_TYPE_STRING	texas_mysql_combin.go	/^	MYSQL_TYPE_STRING      = 254$/;"	c
+MYSQL_TYPE_TIME	texas_mysql_combin.go	/^	MYSQL_TYPE_TIME$/;"	c
+MYSQL_TYPE_TIMESTAMP	texas_mysql_combin.go	/^	MYSQL_TYPE_TIMESTAMP$/;"	c
+MYSQL_TYPE_TINY	texas_mysql_combin.go	/^	MYSQL_TYPE_TINY$/;"	c
+MYSQL_TYPE_TINY_BLOB	texas_mysql_combin.go	/^	MYSQL_TYPE_TINY_BLOB   = 249$/;"	c
+MYSQL_TYPE_VARCHAR	texas_mysql_combin.go	/^	MYSQL_TYPE_VARCHAR$/;"	c
+MYSQL_TYPE_VAR_STRING	texas_mysql_combin.go	/^	MYSQL_TYPE_VAR_STRING  = 253$/;"	c
+MYSQL_TYPE_YEAR	texas_mysql_combin.go	/^	MYSQL_TYPE_YEAR$/;"	c
+PrecessChampionship	texas_mysql_combin.go	/^func PrecessChampionship(tcpCon *tcpConnect) (int, int) {$/;"	f
+ProcessMysqlStmt	texas_mysql_combin.go	/^func (wk *Worker) ProcessMysqlStmt(userdata userData) error {$/;"	f
+Worker	texas_mysql_combin.go	/^type Worker struct {$/;"	t
+addSlashes	texas_mysql_combin.go	/^func addSlashes(str string) string {$/;"	f
+checkError	texas_mysql_combin.go	/^func checkError(err error) {$/;"	f
+checkedResult	texas_mysql_combin.go	/^func checkedResult(rows []mysql.Row, res mysql.Result, err error) ([]mysql.Row, mysql.Result) {$/;"	f
+generalConfigFile	texas_mysql_combin.go	/^func generalConfigFile() {$/;"	f
+getMysqlFieldValue	texas_mysql_combin.go	/^func getMysqlFieldValue(row mysql.Row, fieldName string, fieldIndex int, fieldType byte) string {$/;"	f
+getUidWorker	texas_mysql_combin.go	/^func getUidWorker(tcpCon *tcpConnect, userChan chan userData, exitChan chan int) error {$/;"	f
+getUids	texas_mysql_combin.go	/^func getUids(userdatas *[]userData, sel mysql.Stmt, startUid int, dstDb mysql.Conn) error {$/;"	f
+insertNewAndGetUid	texas_mysql_combin.go	/^func insertNewAndGetUid(userdatas *[]userData, rows []mysql.Row, res mysql.Result, dstDb mysql.Conn) error {$/;"	f
+main	texas_mysql_combin.go	/^func main() {$/;"	f
+main	texas_mysql_combin.go	/^package main$/;"	p
+mysqlTableData	texas_mysql_combin.go	/^type mysqlTableData struct {$/;"	t
+newWorker	texas_mysql_combin.go	/^func newWorker(workerId int) *Worker {$/;"	f
+outPutConfigFile	texas_mysql_combin.go	/^	outPutConfigFile = flag.Bool("o", false, "generate the texas_mysql.ini file")$/;"	v
+printOK	texas_mysql_combin.go	/^func printOK() {$/;"	f
+pubWorker	texas_mysql_combin.go	/^func pubWorker(tcpCon *tcpConnect, userChan chan userData, exitChan chan int, workerId int, startTime time.Time, stat *statistics) error {$/;"	f
+statistics	texas_mysql_combin.go	/^type statistics struct {$/;"	t
+tcpConnect	texas_mysql_combin.go	/^type tcpConnect struct {$/;"	t
+texasUserInsertSqlPrefix	texas_mysql_combin.go	/^var texasUserInsertSqlPrefix = ""$/;"	v
+userData	texas_mysql_combin.go	/^type userData struct {$/;"	t
+verbose	texas_mysql_combin.go	/^	verbose          = flag.Bool("verbose", false, "enable verbose logging")$/;"	v
